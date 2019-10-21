@@ -1,0 +1,42 @@
+.root {
+  color: var(--green);
+
+  .panel {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background: rgba(0, 0, 0, .3);
+    z-index: 2;
+
+    .flow {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      white-space: nowrap;
+
+      button:first-child {
+        margin-right: 20px;
+        background: var(--green);
+      }
+    }
+
+    button {
+      padding: 10px 15px;
+      border-radius: 3px;
+      margin: 10px;
+    }
+  }
+
+  .videos {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+  }
+
+}
