@@ -8,25 +8,14 @@
 ![demo](./static/logo.svg)
 
 ## 可复用逻辑
-### gh-pages
-```json
-//package.json
-"script":{
-  "deploy": "yarn build && gh-pages -d build"
-}
-```
-
-### classnames
-```JavaScript
-import cn from 'classnames'
-//...
-<div className={cn(styles.root, 'browniu-app-root')}></div>
-//...
-```
 
 ## Update
 ### 0.0.1 20191020
 * 初始化
+
+## deploy
+* [忘忧镇](http://jxqy.qq.com/act/a20170925video/index.html?ADTAG=tgi.wx.share.message)
+
 
 ## License
 
